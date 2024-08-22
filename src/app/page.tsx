@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
       <div className="flex h-full">
         <Menu />
-        <div className="w-full flex flex-col gap-6 h-full bg-white rounded-tl-[3rem] pl-24 pt-10 overflow-y-scroll" style={{ scrollbarWidth: 'none' }}>
+        <div className="w-full flex flex-col gap-6 h-full bg-white rounded-tl-[3rem] pl-24 py-10 overflow-y-scroll" style={{ scrollbarWidth: 'none' }}>
           <div className="flex gap-2 items-center">
             <div className="bg-[#FFF0E3] rounded-2xl px-2 py-2">
               <h1 className="font-semibold opacity-40 text-4xl">My Cogent</h1>
