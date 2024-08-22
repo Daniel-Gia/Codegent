@@ -5,7 +5,7 @@ import clsx from 'clsx'
 
 const Files = (props: { name: string, ImageSrc: string, IconSrc: string }) => {
   return (
-    <div className='w-[280px] h-[280px] cursor-pointer flex flex-col gap-2 justify-between items-center overflow-hidden rounded-2xl relative bg-[#FDE8E8]'>
+    <div className='w-72 h-72 cursor-pointer flex flex-col gap-2 justify-between items-center overflow-hidden rounded-2xl relative bg-[#FDE8E8]'>
         <div className='w-full h-[80%] flex justify-center items-center'>
             <Image src={props.ImageSrc} alt='Image' width={180} height={180} />
         </div>
