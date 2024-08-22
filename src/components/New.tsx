@@ -51,7 +51,7 @@ const New = () => {
             </div>
         </div>
 
-        <div onClick={() => setClicked(!clicked)} className='absolute right-20 bottom-10 cursor-pointer flex gap-2 justify-between items-center text-nowrap px-8 py-4 rounded-xl bg-[#FFF0E3]'>
+        <div onClick={() => setClicked(!clicked)} className='fixed right-20 bottom-10 cursor-pointer flex gap-2 justify-between items-center text-nowrap px-8 py-4 rounded-xl bg-[#FFF0E3]'>
             <div><h1 className={`text-6xl ${varelaRound.variable} font-varelaRound`}>+</h1></div>
             <h1 className='font-medium text-[1.3rem]'>New</h1>
         </div>

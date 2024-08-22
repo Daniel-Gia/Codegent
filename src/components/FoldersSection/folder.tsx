@@ -5,7 +5,7 @@ import clsx from 'clsx'
 
 const Folder = (props: { name: string, folerIcon: number }) => {
   return (
-    <div className='w-[280px] cursor-pointer flex justify-between items-center gap-2 px-4 py-2 rounded-xl bg-[#FFB9A3]'>
+    <div className='w-72 cursor-pointer flex justify-between items-center gap-2 px-4 py-2 rounded-xl bg-[#FFB9A3]'>
         <div className='flex gap-2 items-center'>
             <div className='w-10 h-10 relative'>
                 <Image src='/FolderIcon1.png' alt='logo' fill objectFit='contain' className={clsx('', {'hidden': props.folerIcon !== 1})} />
