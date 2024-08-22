@@ -18,7 +18,7 @@ const dm_Sans = DM_Sans(
 
 const Header = () => {
   return (
-    <div className='w-full bg-[#FFDAB9] flex justify-between gap-16 pl-2 pr-6 py-2'>
+    <div className='w-full bg-[#FFDAB9] flex justify-between gap-16 pl-2 pr-6'>
         <div className='flex justify-center items-center gap-2'>
             <div className='h-24 w-24 xl:h-28 xl:w-28 2xl:h-36 2xl:w-36 relative'>
                 <Image src='/logo.png' alt='logo' fill objectFit='contain' />
